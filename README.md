@@ -1,11 +1,26 @@
+# EOLES for climate change study
+
+This code is an adaptation of the EOLES model for climate change studies. 
+In this version of the model, simulation is performed for 30 years, which only optimize the dispatch of the technologies, while thier installed capacities are fixed. To increase the computation speed, the  time resolution decreases to two hours. 
+Ancillary services and one of the gas turbines are removed in order to ensure the correspondence between the capacity and dispatch optimisation and dispatch optimization. 
+
+The EOLES model orginally developed by the Behrang Shirizadeh in GAMS.
+You can find it here: https://github.com/BehrangShirizadeh/EOLES_elec_pro_
+
+This model later translated to python by Nilam De Oliveira Gill
+You can find it here: https://gitlab.in2p3.fr/nilam.de_oliveira-gill/eoles
+
+
+
 # Eoles
 
 Eoles model performs optimization of the investment and operation of the energy system in order to minimize the total cost while satisfying energy demand. \
-Here is a presentation of a slightly earlier version of the model: _http://www.centre-cired.fr/quel-mix-electrique-optimal-en-france-en-2050/_ \
-This Gitlab is the python translation of the Eoles_elec_pro model originally in GAMS.
-You can find it here : _https://github.com/BehrangShirizadeh/EOLES_elec_pro_
+
+Different studies perfomed using EOLES ca be found here:
+https://www.centre-cired.fr/the-eoles-family-of-models/
 
 ---
+
 
 ### Launching the model with Pyomo
 
@@ -118,9 +133,3 @@ Select column A > Go to the menu: Data > Convert > Select Delimited > Next > Che
 
 ---
 
-### Other
-
----
-
-If you have any question about the program or the installation you can ask it through an email to : \
-_nilam.deoliveiragill@gmail.com_
