@@ -1,0 +1,18 @@
+Supply in TWh-e ->
+offshore_f,offshore_g,onshore,pv_g,pv_c,river,lake,ocgt,ccgt,nuc,h2_ccgt,phs,battery1,battery4,SC
+floating offshore wind,ground-based offshore wind,onshore wind,pv grounded,pv commercial,run-of-river hydro,lake and reservoirs,open cycle gas-turbine,combined cycle gas turbine,nuclear,combined cycle gas turbine using hydrogen,pumped hydroelectric energy storage,1 hour battery,4 hours battery,synchronous condenser
+24.77,91.59,339.48,134.92,0.0,28.45,15.3,4.75,10.33,37.47,23.29,12.66,0.0,13.82,0.0
+
+Use in TWh-e ->
+electrolysis,phs,battery1,battery4,elec demand,load curtailment
+107.67,15.63,0.0,16.16,580.0,17.37
+
+Miscellaneous->
+str_loss,hydrogen production,h2_demand,biogas1,biogas2
+yearly storage related loss,hydrogen removed from storage,elec for h2 demand,biogas for ocgt,biogas for ccgt
+TWh-e,TWh-th,TWh-e,TWh-th,TWh-th
+36.51,60.71,53.19,11.88,18.12
+
+Capacity Factor in % ->
+lake,ocgt,ccgt,nuc,h2_ccgt,SC
+13.59,2.29,14.47,86.24,23.33,0.0

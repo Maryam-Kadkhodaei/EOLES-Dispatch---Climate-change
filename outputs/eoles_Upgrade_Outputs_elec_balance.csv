@@ -1,0 +1,5 @@
+Production ->,,,,,,,,,,,,,,,,Consumption ->
+offshore_f,offshore_g,onshore,pv_g,pv_c,river,lake,biogas1,biogas2,ocgt,ccgt,nuc,h2_ccgt,phs,battery1,battery4,electrolysis,hydrogen,SC,phs,battery1,battery4,elec_demand,H2_demand,str_loss,lc
+floating offshore wind,ground-based offshore wind,onshore wind,pv grounded,pv commercial,run-of-river hydro,lake and reservoirs,biogas for ocgt,biogas for ccgt,open cycle gas-turbine,combined cycle gas turbine,nuclear,combined cycle gas turbine using hydrogen,pumped hydroelectric energy storage,1 hour battery,4 hours battery,electrolysis,hydrogen removed from storage,synchronous condenser,pumped hydroelectric energy storage,1 hour battery,4 hours battery,electric demand,elec for h2 demand,yearly storage related loss,load curtailment of the network
+GWhe,GWhe,GWhe,GWhe,GWhe,GWhe,GWhe,GWhth,GWhth,GWhe,GWhe,GWhe,GWhe,GWhe,GWhe,GWhe,GWhe,GWhth,GWhe,GWhe,GWhe,GWhe
+24.77,91.59,339.48,134.92,0.0,28.45,15.3,11.88,18.12,4.75,10.33,37.47,23.29,13.04,0.0,16.23,107.67,61.32,4.79,16.1,0.0,18.98,580.0,53.19,37.01,16.87
